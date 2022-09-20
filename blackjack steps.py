@@ -46,7 +46,7 @@ def playBlackjack():
         showHand(hand)
         
         print("hit or stay\n")
-        decision = input()
+        decision = raw_input()
         if decision == 'hit':
             hit(hand, deck)
         elif decision == 'stay':
